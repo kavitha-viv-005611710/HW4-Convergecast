@@ -100,7 +100,6 @@ Implement the converge-cast algorithm as a recursion. [Input to the program is t
             {
 
                 max=left;
-      //          System.out.println(max);
 
             }
 
@@ -109,7 +108,6 @@ Implement the converge-cast algorithm as a recursion. [Input to the program is t
             {
 
                 max=right;
-             //   System.out.println(max);
             }
 
 
@@ -119,7 +117,6 @@ Implement the converge-cast algorithm as a recursion. [Input to the program is t
             {
 
                 max=value;
-            //    System.out.println(max);
             }
 
         }
@@ -177,8 +174,6 @@ Implement the converge-cast algorithm as a recursion. [Input to the program is t
             {
 
                     var1= var1.concat(Integer.toString(root.right.data));
-
-                    //  System.out.println(var1);
 
 
                 nodesconcatenateRec(root.right);
